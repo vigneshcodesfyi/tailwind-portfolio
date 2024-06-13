@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link to Tailwind CSS via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- Link to Font Awesome for icons (optional) -->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link href="output.css" rel="stylesheet">
+
+
+    <title>Portfolio</title>
+</head>
+
+<body class="bg-gray-50 text-gray-900 font-sans">
+    <header class="bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white py-6 mb-10 shadow-lg">
+        <h1 class="text-center text-4xl font-extrabold">PORTFOLIO</h1>
+    </header>
+
+    <div class="flex flex-col md:flex-row md:justify-center items-center mx-8 my-2 bg-white rounded-lg shadow-lg p-8">
+        <div class="w-full md:w-1/3 flex justify-center md:justify-end mb-4 md:mb-0">
+            <img src="images/depositphotos_133352010-stock-illustration-default-placeholder-man-and-woman.jpg"
+                alt="Your Name" class="h-80 w-80 object-cover rounded-full">
+        </div>
+        <div class="w-full md:w-2/3 text-center md:text-centre md:ml-10">
+            <h2 class="text-4xl font-bold text-purple-600 mb-4">Vignesh</h2>
+            <p class="text-lg mb-2">vigneshcodesfyi@email.com</p>
+            <p class="text-lg mb-2">1234567890</p>
+        </div>
+    </div>
+
+    <section class="mx-8 my-10">
+        <div class="bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 text-white py-4 rounded-full shadow-lg">
+            <h1 class="text-center text-3xl">EDUCATION</h1>
+        </div>
+        <div class="grid lg:grid-cols-3 md:grid-cols-1 gap-8 mt-8">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <h1 class="font-extrabold text-center p-4 text-2xl bg-gray-200">SSLC (2012-2013)</h1>
+                <div class="bg-gradient-to-br from-blue-500 to-purple-600 text-white p-6 text-center">
+                    <p class="text-xl mb-4">Prince Matriculation Higher Secondary School</p>
+                    <p class="text-3xl">50%</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <h1 class="font-extrabold text-center p-4 text-2xl bg-gray-200">HSC (2014-2015)</h1>
+                <div class="bg-gradient-to-br from-green-400 to-blue-600 text-white p-6 text-center">
+                    <p class="text-xl mb-4">Prince Matriculation Higher Secondary School</p>
+                    <p class="text-3xl">50%</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <h1 class="font-extrabold text-center p-4 text-2xl bg-gray-200">BE MECH (2015-2019)</h1>
+                <div class="bg-gradient-to-br from-pink-500 to-red-600 text-white p-6 text-center">
+                    <p class="text-xl mb-4">Peri Institute of Technology</p>
+                    <p class="text-3xl">50%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mx-8 my-10">
+        <div class="bg-gradient-to-r from-green-400 via-blue-500 to-purple-600 text-white py-4 rounded-full shadow-lg">
+            <h1 class="text-center text-3xl">EXPERIENCE</h1>
+        </div>
+        <div class="flex flex-col md:flex-row justify-evenly gap-8 mt-8">
+            <div class="w-full md:w-1/3 bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-center text-2xl font-bold text-green-600 mb-4">Hexaware Technologies</h2>
+                <h3 class="text-center text-xl font-semibold text-gray-800 mb-4">Role: Executive (April 2021 – May 2022)</h3>
+                <ul class="list-disc list-inside">
+                    <li class="mb-2">Worked closely with the team to maintain optimum levels of communication to effectively and efficiently complete projects.</li>
+                    <li class="mb-2">Proved successful working within tight deadlines and fast-paced atmosphere.</li>
+                    <li class="mb-2">Took over team leadership in the absence of my team leader. Currently working as Quality Analyst auditing teams' work.</li>
+                    <li>Conducted training sessions and meetings to rectify errors and improve quality.</li>
+                </ul>
+            </div>
+            <div class="w-full md:w-1/3 bg-white rounded-lg shadow-lg p-6">
+                <h2 class="text-center text-2xl font-bold text-blue-600 mb-4">Urbanrise Constructions</h2>
+                <h3 class="text-center text-xl font-semibold text-gray-800 mb-4">Role: Intern (April 2021 – May 2022)</h3>
+                <ul class="list-disc list-inside">
+                    <li class="mb-2">Openbravo Software: Received training on using and managing Openbravo, an ERP software.</li>
+                    <li class="mb-2">Linux: Learned to navigate and perform tasks in a Linux environment.</li>
+                    <li>PostgreSQL Commands: Gained proficiency in PostgreSQL commands for database management.</li>
+                </ul>
+            </div>
+            <div class="w-full md:w-1/3 bg-white rounded-lg shadow-lg p-6">
+                <h3 class="text-center text-xl font-semibold text-gray-800 mb-4">Role: Software Developer (April 2021 – May 2022)</h3>
+                <ul class="list-disc list-inside">
+                    <li class="mb-2">Created and optimized SQL queries using PostgreSQL to extract and manipulate data efficiently.</li>
+                    <li class="mb-2">Developed new processes within Openbravo, including creating custom buttons and adding specific functionalities to enhance the ERP system.</li>
+                    <li class="mb-2">Designed and implemented various reports using JasperReports and iReport.</li>
+                    <li class="mb-2">Led the development of a new module that integrates with the company's biometric authentication system (BAS).</li>
+                    <li class="mb-2">Implemented functionality to capture values from a face recognition application and insert the data into Openbravo, ensuring seamless integration and data consistency.</li>
+                    <li>Documented the development processes, including technical specifications, integration procedures, and user manuals to facilitate knowledge transfer and system maintenance.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="mx-8 my-10">
+        <div class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 text-white py-4 rounded-full shadow-lg">
+            <h1 class="text-center text-3xl">SKILLS</h1>
+        </div>
+        <ul class="grid sm:grid-cols-2 md:grid-cols-4 gap-4 mt-8">
+            <li class="bg-gray-200 p-4 rounded-lg transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white transform hover:scale-105 text-center">HTML</li>
+            <li class="bg-gray-200 p-4 rounded-lg transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white transform hover:scale-105 text-center">CSS</li>
+            <li class="bg-gray-200 p-4 rounded-lg transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white transform hover:scale-105 text-center">JavaScript</li>
+            <li class="bg-gray-200 p-4 rounded-lg transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white transform hover:scale-105 text-center">Tailwind CSS</li>
+            <li class="bg-gray-200 p-4 rounded-lg transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white transform hover:scale-105 text-center">GIT and GitHub</li>
+            <li class="bg-gray-200 p-4 rounded-lg transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white transform hover:scale-105 text-center">CORE JAVA</li>
+            <li class="bg-gray-200 p-4 rounded-lg transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white transform hover:scale-105 text-center">POSTGRES</li>
+            <li class="bg-gray-200 p-4 rounded-lg transition duration-300 ease-in-out hover:bg-blue-500 hover:text-white transform hover:scale-105 text-center">REACT</li>
+        </ul>
+    </section>
+
+    <section class="mx-8 my-10">
+        <div class="bg-gradient-to-r from-teal-400 via-blue-500 to-indigo-600 text-white py-4 rounded-full shadow-lg">
+            <h1 class="text-center text-3xl">ACHIEVEMENTS & CERTIFICATIONS</h1>
+        </div>
+        <div class="grid lg:grid-cols-2 md:grid-cols-1 gap-8 mt-8">
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h1 class="font-extrabold text-center text-2xl bg-gray-200 rounded-t-lg p-4">Achievements</h1>
+                <ul class=" text-center p-6">
+                    <li class="mb-2">Star Performer Award </li>
+                    
+                    
+                    <li>Achievers Club award</li>
+                </ul>
+<div class="text-right">
+                <a  class="rounded-xl p-2 bg-blue-400 border-2 border-black" href="index.html">view image</a>
+            </div>
+            </div>
+            <div class="bg-white rounded-lg shadow-lg p-6">
+                <h1 class="font-extrabold text-center text-2xl bg-gray-200 rounded-t-lg p-4">Certifications</h1>
+                <ul class=" text-center p-6">
+                    <li>Core Java</li>
+                    <li >HTML</li>
+                    <li >CSS</li>
+                    <li>JavaScript</li>
+
+                    <div class="text-right">
+                        <a class="rounded-xl p-2 bg-blue-400 border-2 border-black" href="index.html">view image</a>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="border-t-4 p-10 bg-teal-200 mt-10 hover:bg-red-500">
+        <div class="text-center mb-4 ">
+            <button class="text-lg font-bold">Connect with me</button>
+        </div>
+       
+        </div>
+    </footer>
+
+</body>
+
+</html>
